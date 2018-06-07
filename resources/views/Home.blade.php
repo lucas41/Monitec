@@ -12,7 +12,7 @@
 <body> 
 <nav class="navbar navbar-expand-sm navbar-dark bg-dark" >
     <div class="container-fluid">
-        <a class="navbar-brand" href="#">Site</a>
+        <a class="navbar-brand" href="#">home</a>
          <div class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </div>
