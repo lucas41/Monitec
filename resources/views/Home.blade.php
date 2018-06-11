@@ -105,8 +105,8 @@
                         <h4 class="card-title"> 1 ano </h4>
                         <h6 class="card-subtitle mb-2 text-muted"> Monitoria</h6>
                         <p class="card-text">bla bla bla bla bla bla bla bla bla bla </p>
-                        <button type="button" class="btn btn-primary">Acesse</button>
-                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">Open Modal</button>
+                        <button type="button" class="btn btn-success">Acesse</button>
+                        <button type="button" class="btn btn btn-danger" data-toggle="modal" data-target="#myModal">Open Modal</button>
                     </div>
 
                 </div>
@@ -116,14 +116,15 @@
                         <!-- Modal content-->
                         <div class="modal-content">
                             <div class="modal-header">
+                            <h4 class="modal-title">materias</h4>
                                 <button type="button" class="close" data-dismiss="modal">&times;</button>
-                                <h4 class="modal-title">Modal Header</h4>
+                                
                             </div>
                             <div class="modal-body">
                                 <p>Some text in the modal.</p>
                             </div>
                             <div class="modal-footer">
-                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
                             </div>
                         </div>
 
@@ -143,24 +144,27 @@
                         <h6 class="card-subtitle mb-2 text-muted"> Monitoria</h6>
                         <p class="card-text">bla bla bla bla bla bla bla bla bla bla </p>
                         <button type="button" class="btn btn-primary">Acesse</button>
-                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">Open Modal</button>
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal1">Open Modal</button>
                     </div>
 
                 </div>
                 <!-- Modal -->
-                <div id="myModal" class="modal fade" role="dialog">
+                <div id="myModal1" class="modal fade" role="dialog">
                     <div class="modal-dialog">
                         <!-- Modal content-->
                         <div class="modal-content">
                             <div class="modal-header">
-                                <button type="button" class="close" data-dismiss="modal">&times;</button>
-                                <h4 class="modal-title">Modal Header</h4>
+                            <h4 class="modal-title">Materias</h4>
+                               
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                          
+
                             </div>
                             <div class="modal-body">
                                 <p>Some text in the modal.</p>
                             </div>
                             <div class="modal-footer">
-                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
                             </div>
                         </div>
 
@@ -180,24 +184,25 @@
                         <h6 class="card-subtitle mb-2 text-muted"> Monitoria</h6>
                         <p class="card-text">bla bla bla bla bla bla bla bla bla bla </p>
                         <button type="button" class="btn btn-primary">Acesse</button>
-                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">Open Modal</button>
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal2">Open Modal</button>
                     </div>
 
                 </div>
                 <!-- Modal -->
-                <div id="myModal" class="modal fade" role="dialog">
+                <div id="myModal2" class="modal fade" role="dialog">
                     <div class="modal-dialog">
                         <!-- Modal content-->
                         <div class="modal-content">
                             <div class="modal-header">
+                            <h4 class="modal-title">Máterias</h4>
                                 <button type="button" class="close" data-dismiss="modal">&times;</button>
-                                <h4 class="modal-title">Modal Header</h4>
+                                
                             </div>
                             <div class="modal-body">
                                 <p>Some text in the modal.</p>
                             </div>
                             <div class="modal-footer">
-                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
                             </div>
                         </div>
 
