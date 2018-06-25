@@ -9,11 +9,6 @@ class MonitecController extends Controller
     
     public function index()
     {
-        return view('irineu');
-    }
-
-    public function loginindex()
-    {
-        return view('auth.login');
+        return view('home');
     }
 }
