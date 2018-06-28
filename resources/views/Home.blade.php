@@ -89,8 +89,8 @@
                         <h4 class="card-title"> 1 ano </h4>
                         <h6 class="card-subtitle mb-2 text-muted"> Monitoria</h6>
                         <p class="card-text">bla bla bla bla bla bla bla bla bla bla </p>
-                        <button type="button" class="btn btn-primary">Acesse</button>
-                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal1">Open Modal</button>
+                        <button type="button" class="btn btn-success">Acesse</button>
+                        <button type="button" class="btn btn btn-danger" data-toggle="modal" data-target="#myModal">Open Modal</button>
                     </div>
 
                 </div>
@@ -129,8 +129,8 @@
                         <h4 class="card-title"> 1 ano </h4>
                         <h6 class="card-subtitle mb-2 text-muted"> Monitoria</h6>
                         <p class="card-text">bla bla bla bla bla bla bla bla bla bla </p>
-                        <button type="button" class="btn btn-primary">Acesse</button>
-                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal2">Open Modal</button>
+                        <button type="button" class="btn btn-success">Acesse</button>
+                        <button type="button" class="btn btn btn-danger" data-toggle="modal" data-target="#myModal">Open Modal</button>
                     </div>
 
                 </div>
