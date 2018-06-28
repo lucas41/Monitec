@@ -16,7 +16,7 @@
             <div class="carousel-inner">
                 <div class="container">
                     <div class="carousel-item active">
-                        <img class="img-fluid" src="/media/04.jpg">
+                        <img class="img-fluid" src="/media/05.jpeg">
                     </div>
                     <div class="carousel-item">
                         <img class="img-fluid" src="/media/04.jpg">
