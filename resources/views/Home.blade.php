@@ -19,10 +19,10 @@
                         <img class="img-fluid" src="/media/05.jpeg">
                     </div>
                     <div class="carousel-item">
-                        <img class="img-fluid" src="/media/04.jpg">
+                        <img class="img-fluid" src="/media/05.jpeg">
                     </div>
                     <div class="carousel-item">
-                        <img class="img-fluid" src="/media/04.jpg">
+                        <img class="img-fluid" src="/media/05.jpeg">
 
                     </div>
                 </div>
@@ -46,7 +46,7 @@
             <div class="col-sm-4 md-2 mb-5">
 
                 <div class="card">
-                    <img class="card-img-top" src="/media/00.jpg">
+                    <img class="card-img-top" src="/media/1ano.jpg">
                     <div class="card-body">
                         <h4 class="card-title"> 1 ano </h4>
                         <h6 class="card-subtitle mb-2 text-muted"> Monitoria</h6>
@@ -84,9 +84,9 @@
             <div class="col-sm-4 md-2 mb-5">
 
                 <div class="card">
-                    <img class="card-img-top" src="/media/00.jpg">
+                    <img class="card-img-top" src="/media/2ano.jpg">
                     <div class="card-body">
-                        <h4 class="card-title"> 1 ano </h4>
+                        <h4 class="card-title"> 2 ano </h4>
                         <h6 class="card-subtitle mb-2 text-muted"> Monitoria</h6>
                         <p class="card-text">bla bla bla bla bla bla bla bla bla bla </p>
                         <button type="button" class="btn btn-success">Acesse</button>
@@ -124,9 +124,9 @@
             <div class="col-sm-4 md-2 mb-5">
 
                 <div class="card">
-                    <img class="card-img-top" src="/media/00.jpg">
+                    <img class="card-img-top" src="/media/3ano.jpg">
                     <div class="card-body">
-                        <h4 class="card-title"> 1 ano </h4>
+                        <h4 class="card-title"> 3 ano </h4>
                         <h6 class="card-subtitle mb-2 text-muted"> Monitoria</h6>
                         <p class="card-text">bla bla bla bla bla bla bla bla bla bla </p>
                         <button type="button" class="btn btn-success">Acesse</button>
