@@ -79,7 +79,7 @@
             </div>
 
   
-       <p> eae meu chapa  bom?</p>
+      
 
             <div class="col-sm-4 md-2 mb-5">
 
