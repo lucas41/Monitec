@@ -46,7 +46,7 @@
             <div class="col-sm-4 md-2 mb-5">
 
                 <div class="card">
-                    <img class="card-img-top" src="/media/1ano.jpg">
+                    <img class="card-img-bottom" src="/media/1ano.jpg">
                     <div class="card-body">
                         <h4 class="card-title"> 1 ano </h4>
                         <h6 class="card-subtitle mb-2 text-muted"> Monitoria</h6>
@@ -84,7 +84,7 @@
             <div class="col-sm-4 md-2 mb-5">
 
                 <div class="card">
-                    <img class="card-img-top" src="/media/2ano.jpg">
+                    <img class="card-img-bottom" src="/media/2ano.jpg">
                     <div class="card-body">
                         <h4 class="card-title"> 2 ano </h4>
                         <h6 class="card-subtitle mb-2 text-muted"> Monitoria</h6>
@@ -123,8 +123,8 @@
 
             <div class="col-sm-4 md-2 mb-5">
 
-                <div class="card">
-                    <img class="card-img-top" src="/media/3ano.jpg">
+                <div class="card" style="width:350px">
+                    <img class="card-img-bottom" src="/media/3ano.jpg">
                     <div class="card-body">
                         <h4 class="card-title"> 3 ano </h4>
                         <h6 class="card-subtitle mb-2 text-muted"> Monitoria</h6>
@@ -156,22 +156,7 @@
                 </div>
            </div>
         </div>
-        <div class="container">
-  <div class="jumbotron jumbotron-fluid">
-    <div class="container"> 
-    <div class="row">
-    <div class="col-12 text-center">
-    <h1>Bootstrap Tutorial</h1>
-    <p>Bootstrap is the most popular HTML, CSS, and JS framework for developing
-    responsive, mobile-first projects on the web.</p>
-    </div>
-    </div>
 
-    <div class="row">
-        <div class=""
-
-    </div>
-</div>
 
 @endsection('site')
 
