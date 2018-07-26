@@ -92,7 +92,7 @@
                         <button type="button" class="btn btn-success">Acesse</button>
                         <button type="button" class="btn btn btn-danger" data-toggle="modal" data-target="#myModal">Open Modal</button>
                     </div>
-
+                    
                 </div>
                 <!-- Modal -->
                 <div id="myModal1" class="modal fade" role="dialog">
