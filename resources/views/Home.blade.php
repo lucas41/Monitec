@@ -51,8 +51,8 @@
                         <h4 class="card-title"> 1 ano </h4>
                         <h6 class="card-subtitle mb-2 text-muted"> Monitoria</h6>
                         <p class="card-text">bla bla bla bla bla bla bla bla bla bla </p>
-                        <button type="button" class="btn btn-success">Acesse</button>
-                        <button type="button" class="btn btn btn-danger" data-toggle="modal" data-target="#myModal">Open Modal</button>
+                        <a  href="http://127.0.0.1:8000/primeiroano" <button type="button" class="btn btn-success">Acesse</button></a>
+                        <button type="button" class="btn btn btn-danger" data-toggle="modal" data-target="#myModal">Informação</button>
                     </div>
 
                 </div>
@@ -89,8 +89,8 @@
                         <h4 class="card-title"> 2 ano </h4>
                         <h6 class="card-subtitle mb-2 text-muted"> Monitoria</h6>
                         <p class="card-text">bla bla bla bla bla bla bla bla bla bla </p>
-                        <button type="button" class="btn btn-success">Acesse</button>
-                        <button type="button" class="btn btn btn-danger" data-toggle="modal" data-target="#myModal">Open Modal</button>
+                        <a  href="http://127.0.0.1:8000/segundoano" <button type="button" class="btn btn-success">Acesse</button></a>
+                        <button type="button" class="btn btn btn-danger" data-toggle="modal" data-target="#myModal">Informação</button>
                     </div>
                     
                 </div>
@@ -129,8 +129,8 @@
                         <h4 class="card-title"> 3 ano </h4>
                         <h6 class="card-subtitle mb-2 text-muted"> Monitoria</h6>
                         <p class="card-text">bla bla bla bla bla bla bla bla bla bla </p>
-                        <button type="button" class="btn btn-success">Acesse</button>
-                        <button type="button" class="btn btn btn-danger" data-toggle="modal" data-target="#myModal">Open Modal</button>
+                        <a  href="http://127.0.0.1:8000/terceiroano" <button type="button" class="btn btn-success">Acesse</button></a>
+                        <button type="button" class="btn btn btn-danger" data-toggle="modal" data-target="#myModal">Informação</button>
                     </div>
 
                 </div>

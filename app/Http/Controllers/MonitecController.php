@@ -11,4 +11,17 @@ class MonitecController extends Controller
     {
         return view('home');
     }
+
+    public function primeiroano()
+    {
+        return view('1ano');
+    }
+    public function segundoano()
+    {
+        return view('2ano');
+    }
+    public function terceiroano()
+    {
+        return view('3ano');
+    }
 }

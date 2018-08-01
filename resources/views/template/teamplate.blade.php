@@ -61,21 +61,21 @@
 @yield('site')
              
 
-<div id="DivFooterBaixo">
+<div>
     <div class="container-fluid">
-    <div id="DivCopyrightFooter">
-        <span class="Senac"><a href="http://www.senac.br"><img src="/media/logo.jpeg" width="300" alt="senac" /></a></span>
+    <div>
+        <span class="Senac"><a href="http://127.0.0.1:8000/"><img src="/media/logo.jpeg" width="300" alt="senac" /></a></span>
         <br /><br />
         
     </div>
-    <div id="DivMenuAuxFooter">
+    <div >
         <div style="float: right">
-            <a href="https://www.youtube.com/channel/UCFFwDexmyycG16Xhr_wDcqA" target="_blank"><img alt="Youtube" title="Youtube" style="width:30px;" src="/media/youtube.jpg" /></a>
-            <a href="https://plus.google.com/u/0/b/114648504410653938793/114648504410653938793/posts" target="_blank"><img alt="Google Plus" title="Google Plus" style="width:30px;" src="/util/img/google-plus.png" /></a>
-            <a href="https://www.facebook.com/SenacEADoficial/" target="_blank"><img alt="Facebook" title="Facebook" style="width:30px;" src="/media/facebook.jpg"  /></a>
-            <a href="https://twitter.com/SenacEADoficial" target="_blank"><img alt="Twitter" title="Twitter" style="width:30px;" src="/util/img/twitter.png" /></a>
-            <a href="https://www.linkedin.com/company/2655383?trk=tyah" target="_blank"><img alt="Linkedin" title="Linkedin" style="width:30px;" src="/util/img/linkedin.png" /></a>
-            <a href="https://www.instagram.com/senacEADoficial/" target="_blank"><img alt="Instagram" title="Instagram" style="width:30px;" src="/util/img/instagram.png" /></a>
+            <a href="#" target="_blank"><img alt="Youtube" title="Youtube" style="width:30px;" src="/media/youtube.jpg" /></a>
+            
+            <a href="#" target="_blank"><img alt="Facebook" title="Facebook" style="width:30px;" src="/media/facebook.jpg"  /></a>
+            <a href="#" target="_blank"><img alt="Twitter" title="Twitter" style="width:30px;" src="/media/twitter.jpg" /></a>
+            
+            <a href="#" target="_blank"><img alt="Instagram" title="Instagram" style="width:30px;" src="/media/insta.jpg" /></a>
         </div>
         <br />
         <span class="Direitos">Todos os direitos reservados</span>
