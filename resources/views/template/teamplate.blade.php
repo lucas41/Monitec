@@ -23,16 +23,15 @@
     <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
 
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">home</a>
+            <a class="navbar-brand" href="http://127.0.0.1:8000">home</a>
             <div class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false"
                 aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </div>
             <div class="collapse navbar-collapse" id="navbar">
                 <ul class="navbar-nav mr-auto">
-
                     <li class="nav-item">
-                        <a class="nav-link" href "#"> Inicio </a>
+                        <a class="nav-link" href="http://127.0.0.1:8000/duvidas"> Dúvidas </a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href "#"> Seriviço </a>
