@@ -3,8 +3,6 @@
 Route::get('/', 'MonitecController@index');
 Route::get('/login', 'login@index');
 Route::get('/duvidas', 'MonitecController@duvidas');
-Auth::routes();
-Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/duvidas/ps', 'MonitecController@ps');
 
 // anos
@@ -37,3 +35,10 @@ Route::get('/primeiroano/portugues1ano/capitulo2', 'MonitecController@portugues1
 Route::get('/primeiroano/portugues1ano/capitulo3', 'MonitecController@portugues1anocapitulo3');
 Route::get('/primeiroano/portugues1ano/capitulo4', 'MonitecController@portugues1anocapitulo4');
 Route::get('/primeiroano/portugues1ano/capitulo5', 'MonitecController@portugues1anocapitulo5');
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');

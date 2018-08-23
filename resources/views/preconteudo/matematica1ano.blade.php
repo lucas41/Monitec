@@ -1,7 +1,6 @@
-@extends('template/teamplate')
+@extends('layouts.app')
 
-
-@section('site')
+@section('content')
 <br><br><br>
 <div class="container">
 <div class="row">
@@ -60,6 +59,8 @@
 	</div>
 </div>
 </div>   
+</div>
+</div>
 </center>
 <style>
 .zoom {
@@ -94,4 +95,4 @@
 
 
 </style>
-@endsection('site')
+@endsection('content')

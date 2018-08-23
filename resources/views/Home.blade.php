@@ -1,8 +1,16 @@
-@extends('template/teamplate')
+@extends('layouts.app')
 
+@section('content')
 
-@section('site')
 <br><br>
+
+<p><center><h1>Bem vindos a Monitec</h1></center></p>
+<div class="container">
+<p><center> O site de monitoria da ETEC </p></center> 
+</div>
+</div>
+<br>
+
 <div class="container">
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
   <ol class="carousel-indicators">
@@ -12,13 +20,26 @@
   </ol>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img class="d-block w-100" src="/media/emo.jpeg" alt="First slide">
+      <img class="d-block w-100" src="/media/02.jpg" alt="First slide">
+      <div class="carousel-caption">
+    <h3>Los Angeles</h3>
+    <p>We had such a great time in LA!</p>
+  </div>
+
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="/media/emo.jpeg" alt="Second slide">
+      <img class="d-block w-100" src="/media/02.jpg" alt="Second slide">
+      <div class="carousel-caption">
+    <h3>Los Angeles</h3>
+    <p>We had such a great time in LA!</p>
+  </div>
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="/media/ridiculo.jpeg" alt="Third slide">
+      <img class="d-block w-100" src="/media/02.jpg" alt="Third slide">
+      <div class="carousel-caption">
+    <h3>Los Angeles</h3>
+    <p>We had such a great time in LA!</p>
+  </div>
     </div>
   </div>
   <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -31,6 +52,29 @@
   </a>
 </div>
 </div>
+<br>
+<div class="container">
+<hr>
+<div class="row">
+<div class="col-md-6">
+<div class="embed-responsive embed-responsive-16by9">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/N9zjXIrgmYA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+</div>
+</div>
+<div class="col-md-6">
+<center>
+<h2> titulo </h2>
+<p> DUAHAUHAIJDHDAJAIHIADHDUJDIDH 
+DUHAUHXAIDAIJAIHADIJDAIJDIJAIJDIJADIDA
+DIJASIJDISJDAIJADIJADIJADIJADIJDIJDIJAIADISJ
+</p>
+</center>
+</div>
+</div>
+</div>
+<hr>
+</div>
+
     <br>
     <div class="container">
         <div class="row mb-5">
@@ -138,7 +182,7 @@
                         <!-- Modal content-->
                         <div class="modal-content">
                             <div class="modal-header">
-                            <h4 class="modal-title">Máterias</h4>
+                            <h4 class="modal-title">MÃ¡terias</h4>
                                 <button type="button" class="close" data-dismiss="modal">&times;</button>
                                 
                             </div>
@@ -157,5 +201,7 @@
     </div>
 </div>
 
-@endsection('site')
 
+
+
+@endsection

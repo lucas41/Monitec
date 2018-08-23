@@ -1,8 +1,8 @@
-@extends('template/teamplate')
+@extends('layouts.app')
 
-
-@section('site')
+@section('content')
 <br>
+
 <p><center><h2>Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos,</h2></center></p>
 <div class="container">
 <p><center>Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos </p></center> 
@@ -66,4 +66,4 @@
 
 
 </style>
-@endsection('site')
+@endsection('content')

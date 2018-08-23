@@ -1,7 +1,6 @@
-@extends('template/teamplate')
+@extends('layouts.app')
 
-
-@section('site')
+@section('content')
 
 <br><br>
 <div class="container">
@@ -62,4 +61,4 @@
 
 
 
-@endsection('site')
+@endsection('content')

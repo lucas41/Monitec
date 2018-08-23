@@ -1,6 +1,6 @@
-@extends('template/teamplate')
+@extends('layouts.app')
 
-@section('site')
+@section('content')
 
 <br><br>
 <div class="container">
@@ -38,5 +38,5 @@ Se for de seu interesse, visite essa página periodicamente, com o objetivo de a
 
 
 
-@endsection('site')
+@endsection('content')
 
