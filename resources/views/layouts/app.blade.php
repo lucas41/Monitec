@@ -1,18 +1,16 @@
 <!DOCTYPE html>
 
-<html lang="en">
+<html lang="br">
 <html lang="{{ app()->getLocale() }}">
 <head>
      <title>Monitec</title>      
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="{{ asset('/css/app.css') }}" rel="stylesheet">
-    <script src="{{ asset('/js/app.js') }}" defer></script>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ"
-        crossorigin="anonymous"></script>
+    
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> 
+<link rel="icon" href="/media/logo.png" type="image/x-icon" />
+<link rel="shortcut icon" href="/media/logo.png" type="image/x-icon" />
+
     <center>
         <img src="/media/logo.jpeg" alt="Logo" style="width:410px;">
     </center>
@@ -46,16 +44,31 @@
     </div>
     <div class="collapse navbar-collapse" id="navbar">
         <ul class="navbar-nav mr-auto">
+
+              <li>
+          <div class="dropdown">
+          <a class="nav-link" href="#"> Monitoria </a>
+                <div class="dropdown-content">
+                 <a href="/primeiroano">1 ano</a>
+                 <a href="/segundoano">2 ano</a>
+                 <a href="/terceiroano">3 ano</a>
+                </div>
+            </div>
+          </li>
+
+          
+            <li class="drop">
+                <a class="nav-link" href="http://127.0.0.1:8000/faleconosco"> Fale Conosco </a>
+            </li>
+            
             <li class="nav-item">
                 <a class="nav-link" href="http://127.0.0.1:8000/duvidas"> Dúvidas </a>
             </li>
-            <li class="nav-item">
-                <a class="nav-link" href "#"> Seriviço </a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href "#"> Perfil </a>
-            </li>
+        
+          
         </ul>
+
+        
 
                 
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -77,10 +90,10 @@
                         @else
                        
                             <li class="nav-item">
-                                <a id="navbarDropdown" class="nav-link" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
+                                <a id="navbarDropdown" class="nav-link" href="http://127.0.0.1:8000/perfil">
                                     {{ Auth::user()->name }} <span class="caret"></span>
                                 </a>
-                                
+                  
 
                                  <li <button class="btn-danger"> <a class="nav-link" href="{{ route('logout') }}"
                                        onclick="event.preventDefault();
@@ -93,7 +106,7 @@
                                         @csrf
                                     </form>
                                 </div>
-                            </li>
+                             
                         @endguest
                     </ul>
                 </div>
@@ -128,3 +141,48 @@
 </div>
 </body>
 </html>
+
+
+<style>
+
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+}
+</style>
+
+

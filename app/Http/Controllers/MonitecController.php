@@ -11,6 +11,16 @@ class MonitecController extends Controller
     {
         return view('home');
     }
+
+    public function faleconosco()
+    {
+        return view('faleconosco');
+    }
+    
+    public function perfil()
+    {
+        return view('perfil');
+    }
     
     public function ps()
     {

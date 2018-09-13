@@ -3,9 +3,9 @@
 @section('content')
 <br>
 
-<p><center><h2>Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos,</h2></center></p>
+<p><center><h2>Pagina de conteudo 1 ano</h2></center></p>
 <div class="container">
-<p><center>Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos </p></center> 
+<p><center>Aqui voce encontra as materias que ja tem conteudo disponivel para os alunos de 1 ano</p></center> 
 </div>
 </div>
 <br><br>

@@ -4,6 +4,8 @@ Route::get('/', 'MonitecController@index');
 Route::get('/login', 'login@index');
 Route::get('/duvidas', 'MonitecController@duvidas');
 Route::get('/duvidas/ps', 'MonitecController@ps');
+Route::get('/faleconosco', 'MonitecController@faleconosco');
+Route::get('/perfil', 'MonitecController@perfil');
 
 // anos
 

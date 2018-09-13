@@ -77,24 +77,21 @@ DIJASIJDISJDAIJADIJADIJADIJADIJDIJDIJAIADISJ
 
     <br>
     <div class="container">
-        <div class="row mb-5">
+        <div class="row mb-4">
 
-            <div class="col-sm-4 md-2 mb-5">
+            <div class="col-sm-4">
 
                 <div class="card">
                     <img class="card-img-bottom" src="/media/1ano.jpg">
                     <div class="card-body">
                         <h4 class="card-title"> 1 ano </h4>
                         <h6 class="card-subtitle mb-2 text-muted"> Monitoria</h6>
-                        <p class="card-text">bla bla bla bla bla bla bla bla bla bla </p>
+                        <p class="card-text">Aqui você encontra todo o material ja disponivel para esse ano até o momento </p>
                         <a  href="http://127.0.0.1:8000/primeiroano" <button type="button" class="btn btn-success">Acesse</button></a>
                         <button type="button" class="btn btn btn-danger" data-toggle="modal" data-target="#myModal">Informação</button>
                     </div>
 
                 </div>
-
-
-
 
 
 
@@ -109,7 +106,15 @@ DIJASIJDISJDAIJADIJADIJADIJADIJDIJDIJAIADISJ
                                 
                             </div>
                             <div class="modal-body">
-                                <p>Some text in the modal.</p>
+                                
+                                <ul>
+                                <li>Some text in modal</li>
+                                <li>Some text in modal</li>
+                                <li>Some text in modal</li>
+                                <li>Some text in modal</li>
+                                </ul>
+
+
                             </div>
                             <div class="modal-footer">
                                 <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
@@ -123,21 +128,21 @@ DIJASIJDISJDAIJADIJADIJADIJADIJDIJDIJAIADISJ
   
       
 
-            <div class="col-sm-4 md-2 mb-5">
+            <div class="col-sm-4">
 
                 <div class="card">
                     <img class="card-img-bottom" src="/media/2ano.jpg">
                     <div class="card-body">
                         <h4 class="card-title"> 2 ano </h4>
                         <h6 class="card-subtitle mb-2 text-muted"> Monitoria</h6>
-                        <p class="card-text">bla bla bla bla bla bla bla bla bla bla </p>
+                        <p class="card-text">Aqui você encontra todo o material ja disponivel para esse ano até o momento</p>
                         <a  href="http://127.0.0.1:8000/segundoano" <button type="button" class="btn btn-success">Acesse</button></a>
-                        <button type="button" class="btn btn btn-danger" data-toggle="modal" data-target="#myModal">Informação</button>
+                        <button type="button" class="btn btn btn-danger" data-toggle="modal" data-target="#eae">Informação</button>
                     </div>
                     
                 </div>
                 <!-- Modal -->
-                <div id="myModal1" class="modal fade" role="dialog">
+                <div id="eae" class="modal fade" role="dialog">
                     <div class="modal-dialog">
                         <!-- Modal content-->
                         <div class="modal-content">
@@ -163,39 +168,43 @@ DIJASIJDISJDAIJADIJADIJADIJADIJDIJDIJAIADISJ
            
         
 
-            <div class="col-sm-4 md-2 mb-5">
+           <div class="col-sm-4">
 
-                <div class="card" style="width:350px">
-                    <img class="card-img-bottom" src="/media/3ano.jpg">
-                    <div class="card-body">
-                        <h4 class="card-title"> 3 ano </h4>
-                        <h6 class="card-subtitle mb-2 text-muted"> Monitoria</h6>
-                        <p class="card-text">bla bla bla bla bla bla bla bla bla bla </p>
-                        <a  href="http://127.0.0.1:8000/terceiroano" <button type="button" class="btn btn-success">Acesse</button></a>
-                        <button type="button" class="btn btn btn-danger" data-toggle="modal" data-target="#myModal">Informação</button>
-                    </div>
+<div class="card">
+    <img class="card-img-bottom" src="/media/3ano.jpg">
+    <div class="card-body">
+        <h4 class="card-title"> 3 ano </h4>
+        <h6 class="card-subtitle mb-2 text-muted"> Monitoria</h6>
+        <p class="card-text">Aqui você encontra todo o material ja disponivel para esse ano até o momento</p>
+        <a  href="http://127.0.0.1:8000/segundoano" <button type="button" class="btn btn-success">Acesse</button></a>
+        <button type="button" class="btn btn btn-danger" data-toggle="modal" data-target="#salve">Informação</button>
+    </div>
+    
+</div>
+<!-- Modal -->
+<div id="salve" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+            <h4 class="modal-title">Materias</h4>
+               
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+          
 
-                </div>
-                <!-- Modal -->
-                <div id="myModal2" class="modal fade" role="dialog">
-                    <div class="modal-dialog">
-                        <!-- Modal content-->
-                        <div class="modal-content">
-                            <div class="modal-header">
-                            <h4 class="modal-title">MÃ¡terias</h4>
-                                <button type="button" class="close" data-dismiss="modal">&times;</button>
-                                
-                            </div>
-                            <div class="modal-body">
-                                <p>Some text in the modal.</p>
-                            </div> ..
-                            <div class="modal-footer">
-                                <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-                            </div>
-                        </div>
+            </div>
+            <div class="modal-body">
+                <p>Some text in the modal.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+            </div>
+        </div>
 
-                    </div>
-                </div>
+    </div>
+</div>
+</div>
+
            </div>
         </div>
     </div>
