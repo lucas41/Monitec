@@ -32,7 +32,35 @@
 </head>
 <body>
 
+<style>
+div#load_screen{
+	background: #000;
+	opacity: 1;
+	position: fixed;
+    z-index:10;
+	top: 0px;
+	width: 100%;
+	height: 1600px;
+    
+}
+div#load_screen > div#loading{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    margin-top: 200px;
+}
+</style>
 
+<script>
+window.addEventListener("load", function(){
+	var load_screen = document.getElementById("load_screen");
+	document.body.removeChild(load_screen);
+});
+</script>
+
+
+<div id="load_screen"><div id="loading"> <img src="media/gip.gif"></div></div>
 
 <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
 
